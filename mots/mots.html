@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".././style.css">
+    <link rel="stylesheet" href="./mots.css">
+    <title>Exercices des mots</title>
+  </head>
+
+  <body>
+    <section class="soluce">
+      <p class="grey">Vous avez du mal à écrire un mot ?</p>
+      <p class="grey">Appuyez sur la touche <span class="heavy">[F5]</span> de votre clavier pour rafraîchir la page.</p>
+      <p class="grey heavy">Cela affichera un nouveau mot !</p>
+    </section>
+
+    <section class="app">
+      <h1>Exercices au clavier</h1>
+      <h2>Réécrire des mots</h2>
+
+      <nav>
+          <ul>
+              <li><a href=".././index.html">Accueil</a></li>
+              <li><a href="../phrases/phrases.html">Réécrire des phrases</a></li>
+          </ul>
+      </nav>
+
+      <form id="form" action="">
+        <p><span class="underline">Mot à réécrire</span> :</p>
+        <p class="mot-selectionne"><span class="heavy" id="motSelectionne">Mot selectionné</span></p>
+        <p id="msgErreur"></p>
+
+        <textarea class="heavy" id="motEntre" autocomplete="off" type="text" autofocus></textarea>
+        
+      </form>
+      
+      <footer>
+        <p class="heavy">Christelle Borrego</p>
+        <p>Conseillère Numérique France Services</p>
+      </footer>
+    </section>
+
+    <script src="./mots.js"></script>
+  </body>
+</html>

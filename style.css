@@ -1,0 +1,128 @@
+:root {
+    font-size:          85%;
+    background-color:   #dacfe9;
+    /* background-color: #17181a; */
+}
+* {
+    box-sizing:         border-box;
+    margin:             0;
+    padding:            0;
+    font-family:        Arial, Helvetica, sans-serif;
+}
+
+
+
+/* CORPS */
+body {
+    margin:             0 auto;
+    /* color: #c0c0c0; */
+}
+.app {
+    width:              75vw;
+    margin:             0 auto;
+}
+h1 {
+    margin:             3rem 0 2rem 0;
+    font-size:          3rem;
+    font-weight:        bolder;
+    color:              #1e1829;
+    /* color: #ac9dff; */
+}
+h2 {
+    margin-bottom:      1rem;
+    font-size:          2rem;
+    font-weight:        700;
+    color:              #1e1829;
+}
+h3 {
+    margin-bottom:      1rem;
+    font-size:          1.5rem;
+    font-weight:        500;
+    color:              #1e1829;
+}
+p {
+    margin:             .5rem 0 .5rem 0;
+    font-size:          1.2rem;
+}
+
+
+/* NAVIGATION */
+nav {
+    margin-bottom:      2rem;
+    font-size:          1.5rem;
+    color:              #3f1788;
+    /* color: #ac9dff; */
+}
+li {
+    margin-left:        5rem;
+    padding:            0 0 .5rem 0;
+}
+a {
+    color:              #3f1788;
+    text-decoration:    none;
+    /* color: #ac9dff; */
+}
+a:hover {
+    text-decoration:    underline;
+}
+a:visited {
+    color:              #3f1788;
+    /* color: #837ab6; */
+}
+
+
+
+/* BLOC SOLUCE */
+.soluce {
+    width:              100%;
+    margin:             0 auto;
+    padding:            .5rem;
+    text-align:         center;
+    background-color:   #3f1788;
+    color:              #c0c0c0;
+    /* background-color: #837ab6; */
+}
+
+
+
+/* FORM EXERCICES */
+form {
+    margin-top:         1rem;
+    color:              #17181a;
+}
+textarea {
+    width:              100%;
+    height:             20rem;
+    margin:             0 auto;
+    padding:            .5rem;
+    font-size:          1.8rem;
+    background-color:   #ffffff;
+    color:              #17181a;
+}
+
+
+
+/* PIED DE PAGE */
+footer {
+    margin:             4rem 0 4rem 0;
+    color:              #17181a;
+}
+
+
+
+/* SPECIFIQUES */
+.underline {
+    text-decoration:    underline;
+}
+
+.heavy {
+    font-weight:        bolder;
+}
+
+.grey {
+    color:              #c0c0c0;
+}
+
+.dark-grey {
+    color:              #17181a;
+}

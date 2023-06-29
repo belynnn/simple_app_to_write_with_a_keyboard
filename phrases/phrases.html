@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".././style.css">
+    <link rel="stylesheet" href="./phrases.css">
+    <title>Exercices des phrases</title>
+  </head>
+
+  <body>
+    <section class="soluce grey">
+      <p>Vous avez du mal à écrire une phrase ?</p>
+      <p>Appuyez sur la touche <span class="heavy">[F5]</span> de votre clavier pour rafraîchir la page.</p>
+      <p class="heavy">Cela affichera une nouvelle phrase !</p>
+    </section>
+
+    <section class="app">
+      <h1>Exercices au clavier</h1>
+      <h2>Réécrire des phrases</h2>
+      
+      <nav>
+        <ul>
+          <li><a href=".././index.html">Accueil</a></li>
+          <li><a href="../mots/mots.html">Réécrire des mots</a></li>
+        </ul>
+      </nav>
+    
+      <form id="form" action="">
+        <p><span class="underline">Phrase à réécrire</span> :</p>
+        <p class="phrase-selectionne"><span class="heavy" id="phraseSelectionne">Phrase selectionnée</span></p>
+        <p id="msgErreur"></p>
+    
+        <textarea class="heavy" id="phraseEntre" autocomplete="off" type="text" autofocus></textarea>
+    
+      </form>
+    
+      <footer>
+        <p class="heavy">Christelle Borrego</p>
+        <p>Conseiller Numérique France Services</p>
+      </footer>
+    </section>
+
+    <script src="./phrases.js"></script>
+  </body>
+</html>
