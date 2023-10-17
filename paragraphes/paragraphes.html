@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".././style.css">
+    <link rel="stylesheet" href="./paragraphes.css">
+    <title>Exercices des paragraphes</title>
+  </head>
+
+  <body>
+    <section class="soluce grey">
+      <p>Vous avez du mal à écrire un paragraphe ?</p>
+      <p>Appuyez sur la touche <span class="heavy">[F5]</span> de votre clavier pour rafraîchir la page.</p>
+      <p class="heavy">Cela affichera un nouveau paragraphe !</p>
+    </section>
+
+    <section class="app">
+      <h1>Exercices au clavier</h1>
+      <h2>Réécrire des paragraphes</h2>
+      
+      <nav>
+        <ul>
+          <li><a href=".././index.html">Accueil</a></li>
+          <li><a href="../mots/mots.html">Réécrire des mots</a></li>
+          <li><a href="../phrases/phrases.html">Réécrire des phrases</a></li>
+        </ul>
+      </nav>
+    
+      <form id="form" action="">
+        <p><span class="underline">Paragraphe à réécrire</span> :</p>
+        <p class="paragraphe-selectionne"><span class="heavy" id="paragrapheSelectionne">Paragraphe selectionné</span></p>
+        <p id="msgErreur"></p>
+    
+        <textarea class="heavy" id="paragrapheEntre" autocomplete="off" type="text" spellcheck="false" autofocus></textarea>
+    
+      </form>
+    
+      <footer>
+        <p class="heavy">Christelle Borrego</p>
+        <p>Conseillère Numérique France Services</p>
+        <br>
+        <p>Site web développé par <span class="heavy">Déborah Clerckx</span>.</p>
+      </footer>
+    </section>
+
+    <script src="./paragraphes.js"></script>
+  </body>
+</html>
